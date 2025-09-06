@@ -1,0 +1,338 @@
+[
+
+  {
+    "model": "library.author",
+    "pk": 1,
+    "fields": {
+      "name": "J.K. Rowling",
+      "biography": "British author, best known for the Harry Potter series."
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 2,
+    "fields": {
+      "name": "George R.R. Martin",
+      "biography": "American novelist, famous for A Song of Ice and Fire."
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 3,
+    "fields": {
+      "name": "J.R.R. Tolkien",
+      "biography": "English writer, best known for The Lord of the Rings."
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 4,
+    "fields": {
+      "name": "Agatha Christie",
+      "biography": "Famous British mystery writer."
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 5,
+    "fields": {
+      "name": "Stephen King",
+      "biography": "American author of horror and supernatural fiction."
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 6,
+    "fields": {
+      "name": "Isaac Asimov",
+      "biography": "Prolific science fiction writer and biochemist."
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 7,
+    "fields": {
+      "name": "Ernest Hemingway",
+      "biography": "American novelist and short story writer."
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 8,
+    "fields": {
+      "name": "F. Scott Fitzgerald",
+      "biography": "American author, famous for The Great Gatsby."
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 9,
+    "fields": {
+      "name": "Mark Twain",
+      "biography": "American writer and humorist."
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": 10,
+    "fields": {
+      "name": "Leo Tolstoy",
+      "biography": "Russian writer, famous for War and Peace."
+    }
+  },
+
+  {
+    "model": "library.book",
+    "pk": 1,
+    "fields": {
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": 1,
+      "isbn": "9780747532699",
+      "category": "Fantasy",
+      "availability_status": true
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 2,
+    "fields": {
+      "title": "A Game of Thrones",
+      "author": 2,
+      "isbn": "9780553103540",
+      "category": "Fantasy",
+      "availability_status": true
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 3,
+    "fields": {
+      "title": "The Hobbit",
+      "author": 3,
+      "isbn": "9780547928227",
+      "category": "Fantasy",
+      "availability_status": true
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 4,
+    "fields": {
+      "title": "Murder on the Orient Express",
+      "author": 4,
+      "isbn": "9780062693662",
+      "category": "Mystery",
+      "availability_status": true
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 5,
+    "fields": {
+      "title": "The Shining",
+      "author": 5,
+      "isbn": "9780307743657",
+      "category": "Horror",
+      "availability_status": true
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 6,
+    "fields": {
+      "title": "Foundation",
+      "author": 6,
+      "isbn": "9780553293357",
+      "category": "Science Fiction",
+      "availability_status": true
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 7,
+    "fields": {
+      "title": "The Old Man and the Sea",
+      "author": 7,
+      "isbn": "9780684801223",
+      "category": "Fiction",
+      "availability_status": true
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 8,
+    "fields": {
+      "title": "The Great Gatsby",
+      "author": 8,
+      "isbn": "9780743273565",
+      "category": "Classic",
+      "availability_status": true
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 9,
+    "fields": {
+      "title": "Adventures of Huckleberry Finn",
+      "author": 9,
+      "isbn": "9780486280615",
+      "category": "Classic",
+      "availability_status": true
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": 10,
+    "fields": {
+      "title": "War and Peace",
+      "author": 10,
+      "isbn": "9781853260629",
+      "category": "Historical",
+      "availability_status": true
+    }
+  },
+
+ 
+  {
+    "model": "library.member",
+    "pk": 1,
+    "fields": {
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "membership_date": "2025-09-05"
+    }
+  },
+  {
+    "model": "library.member",
+    "pk": 2,
+    "fields": {
+      "name": "Bob Johnson",
+      "email": "bob@example.com",
+      "membership_date": "2025-09-05"
+    }
+  },
+  {
+    "model": "library.member",
+    "pk": 3,
+    "fields": {
+      "name": "Charlie Brown",
+      "email": "charlie@example.com",
+      "membership_date": "2025-09-05"
+    }
+  },
+  {
+    "model": "library.member",
+    "pk": 4,
+    "fields": {
+      "name": "Diana Prince",
+      "email": "diana@example.com",
+      "membership_date": "2025-09-05"
+    }
+  },
+  {
+    "model": "library.member",
+    "pk": 5,
+    "fields": {
+      "name": "Ethan Hunt",
+      "email": "ethan@example.com",
+      "membership_date": "2025-09-05"
+    }
+  },
+  {
+    "model": "library.member",
+    "pk": 6,
+    "fields": {
+      "name": "Fiona Gallagher",
+      "email": "fiona@example.com",
+      "membership_date": "2025-09-05"
+    }
+  },
+  {
+    "model": "library.member",
+    "pk": 7,
+    "fields": {
+      "name": "George Clooney",
+      "email": "george@example.com",
+      "membership_date": "2025-09-05"
+    }
+  },
+  {
+    "model": "library.member",
+    "pk": 8,
+    "fields": {
+      "name": "Hannah Montana",
+      "email": "hannah@example.com",
+      "membership_date": "2025-09-05"
+    }
+  },
+  {
+    "model": "library.member",
+    "pk": 9,
+    "fields": {
+      "name": "Ian Somerhalder",
+      "email": "ian@example.com",
+      "membership_date": "2025-09-05"
+    }
+  },
+  {
+    "model": "library.member",
+    "pk": 10,
+    "fields": {
+      "name": "Jessica Alba",
+      "email": "jessica@example.com",
+      "membership_date": "2025-09-05"
+    }
+  },
+
+
+  {
+    "model": "library.borrowrecord",
+    "pk": 1,
+    "fields": {"book": 1, "member": 1, "borrow_date": "2025-09-05", "return_date": null}
+  },
+  {
+    "model": "library.borrowrecord",
+    "pk": 2,
+    "fields": {"book": 2, "member": 2, "borrow_date": "2025-09-06", "return_date": null}
+  },
+  {
+    "model": "library.borrowrecord",
+    "pk": 3,
+    "fields": {"book": 3, "member": 3, "borrow_date": "2025-09-07", "return_date": null}
+  },
+  {
+    "model": "library.borrowrecord",
+    "pk": 4,
+    "fields": {"book": 4, "member": 4, "borrow_date": "2025-09-08", "return_date": null}
+  },
+  {
+    "model": "library.borrowrecord",
+    "pk": 5,
+    "fields": {"book": 5, "member": 5, "borrow_date": "2025-09-09", "return_date": null}
+  },
+  {
+    "model": "library.borrowrecord",
+    "pk": 6,
+    "fields": {"book": 6, "member": 6, "borrow_date": "2025-09-10", "return_date": null}
+  },
+  {
+    "model": "library.borrowrecord",
+    "pk": 7,
+    "fields": {"book": 7, "member": 7, "borrow_date": "2025-09-11", "return_date": null}
+  },
+  {
+    "model": "library.borrowrecord",
+    "pk": 8,
+    "fields": {"book": 8, "member": 8, "borrow_date": "2025-09-12", "return_date": null}
+  },
+  {
+    "model": "library.borrowrecord",
+    "pk": 9,
+    "fields": {"book": 9, "member": 9, "borrow_date": "2025-09-13", "return_date": null}
+  },
+  {
+    "model": "library.borrowrecord",
+    "pk": 10,
+    "fields": {"book": 10, "member": 10, "borrow_date": "2025-09-14", "return_date": null}
+  }
+]
