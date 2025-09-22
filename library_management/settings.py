@@ -16,7 +16,7 @@ SECRET_KEY = 'django-insecure-v6j&xhihbo6dietx$g)e$ed-8^82eze++t(z&nyuucjtp!yh(v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [".vercel.app",'127.0.0.1:8000']
+ALLOWED_HOSTS = [".vercel.app",'127.0.0.1']
 
 
 # Application definition
@@ -173,3 +173,20 @@ cloudinary.config(
 # Media File Storage
 
 MEDIA_FILE_STORAGE='cloudinary_storage.storage.MediaCloudinaryStorage'
+
+
+
+DJOSER = {
+    'PASSWORD_RESET_CONFIRM_URL': 'password/reset/confirm/{uid}/{token}',
+    'ACTIVATION_URL': 'activate/{uid}/{token}',
+    'SEND_ACTIVATION_EMAIL': True,
+   
+}
+
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = config('EMAIL_HOST')
+EMAIL_USE_TLS = config('EMAIL_USE_TLS', cast=bool)
+EMAIL_PORT = config('EMAIL_PORT')
+EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
